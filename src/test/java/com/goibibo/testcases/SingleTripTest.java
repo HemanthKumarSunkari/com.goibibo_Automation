@@ -14,7 +14,7 @@ import com.goibibo.util.TestUtil;
 public class SingleTripTest extends TestBase {
 
 	
-	@Test(invocationCount = 2)
+	@Test(invocationCount = 1)
 	public static void SingleTripPaymentTest() throws ParseException {
 		LandingPage lp = new LandingPage();
 		
@@ -33,6 +33,7 @@ public class SingleTripTest extends TestBase {
 		TestUtil.log().info("Select paypal payment methods after slecting no insurance & entering passenger details");
 		boolean epd = fr.selectPaypalWithoutInsurance();
 		Assert.assertEquals(epd, true, "Payment amount is other than INR");
+		TestUtil.log().info("Payment Amount is INR format");
 
 	}
 

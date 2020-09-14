@@ -94,18 +94,25 @@ public class FlightReviewPage extends TestBase {
 	public boolean selectPaypalPaymentMethod() {
 		try {
 			// driver.switchTo().alert().accept();
+			TestUtil.log().info("closing the popup");
 			driver.findElement(By.xpath("//button[@class='button blue large fb padLR30']")).click();
-
+			
+			TestUtil.log().info("Scrolling down to find PROCEED TO PAYMENT button");
 			js.executeScript("arguments[0].scrollIntoView();", proceedToPaymentBtn);
+			TestUtil.log().info("Clicking on Proceed to payment button");
 			proceedToPaymentBtn.click();
 		} catch (Exception e) {
 			System.out.println("There is no option to select seats and SkipToPayment button");
 		}
-
+		
+		TestUtil.log().info("Scrolling down to find PROCEED TO PAYMENT button");
 		js.executeScript("arguments[0].scrollIntoView();", proceedToPaymentBtn);
+		TestUtil.log().info("Wait untill PAYPAL payment method is loaded");
 		Wait(paypal);
+		TestUtil.log().info("Selecting paypal as payment method");
 		paypal.click();
-
+		
+		TestUtil.log().info("Verifying payment is in INR amount or not");
 		return inrAmount.isEnabled();
 	}
 	

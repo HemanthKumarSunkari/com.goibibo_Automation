@@ -83,10 +83,10 @@ public class TestBase {
 		}
 	}
 	
+	
 	/*
 	 * Explicit Wait for particular instance 
 	 */
-
 	public static WebElement Wait(WebElement e) {
 		wait = new WebDriverWait(driver, TestUtil.EXPLICIT_WAIT);
 		TestUtil.log().info("Driver is trying to find element :" + e);

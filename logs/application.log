@@ -340,3 +340,55 @@
 [INFO ] 2020-09-14 22:21:37.680 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (ff2afb9c90eeba12d0b556e68b17acf5)] -> id: tab_paypal]
 [INFO ] 2020-09-14 22:21:38.994 com.goibibo.base.TestBase:77 - Closing the browser window
 [INFO ] 2020-09-14 22:21:40.353 com.goibibo.base.TestBase:80 - Closing the complete browser session
+[INFO ] 2020-09-14 22:35:52.439 com.goibibo.base.TestBase:51 - Trying to launch the chrome Driver
+[INFO ] 2020-09-14 22:36:00.045 com.goibibo.base.Browser:31 - Chrome browser is launched
+[INFO ] 2020-09-14 22:36:00.060 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
+[INFO ] 2020-09-14 22:36:02.268 com.goibibo.base.TestBase:57 - Maximizing the browser window
+[INFO ] 2020-09-14 22:36:02.296 com.goibibo.base.TestBase:59 - Deleting all browser cookies
+[INFO ] 2020-09-14 22:36:02.327 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
+[INFO ] 2020-09-14 22:36:08.581 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
+[INFO ] 2020-09-14 22:36:08.643 com.goibibo.testcases.SingleTripTest:21 - Validating Flight tab
+[INFO ] 2020-09-14 22:36:08.651 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
+[INFO ] 2020-09-14 22:36:08.739 com.goibibo.testcases.SingleTripTest:24 - Selecting One Way flight tab
+[INFO ] 2020-09-14 22:36:08.739 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
+[INFO ] 2020-09-14 22:36:08.787 com.goibibo.testcases.SingleTripTest:27 - Enter all  details and search for flight 
+[INFO ] 2020-09-14 22:36:08.791 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
+[INFO ] 2020-09-14 22:36:10.474 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9d37bc1857ed9fa72169008b0782a814)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 22:36:10.943 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
+[INFO ] 2020-09-14 22:36:12.861 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9d37bc1857ed9fa72169008b0782a814)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 22:36:13.091 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
+[INFO ] 2020-09-14 22:36:13.247 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
+[INFO ] 2020-09-14 22:36:13.922 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
+[INFO ] 2020-09-14 22:36:13.923 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
+[INFO ] 2020-09-14 22:36:14.180 com.goibibo.testcases.SingleTripTest:30 - Selecting lowerst price flight from list
+[INFO ] 2020-09-14 22:36:14.180 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
+[INFO ] 2020-09-14 22:36:19.058 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
+[INFO ] 2020-09-14 22:36:19.062 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
+[INFO ] 2020-09-14 22:36:19.584 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?4322
+[INFO ] 2020-09-14 22:36:19.584 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
+[INFO ] 2020-09-14 22:36:20.016 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 1hr 45min
+[INFO ] 2020-09-14 22:36:20.016 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
+[INFO ] 2020-09-14 22:36:20.528 com.goibibo.testcases.SingleTripTest:33 - Select paypal payment methods after slecting no insurance & entering passenger details
+[INFO ] 2020-09-14 22:36:21.607 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
+[INFO ] 2020-09-14 22:36:21.791 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9d37bc1857ed9fa72169008b0782a814)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
+[INFO ] 2020-09-14 22:36:21.996 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
+[INFO ] 2020-09-14 22:36:22.000 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
+[INFO ] 2020-09-14 22:36:22.049 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
+[INFO ] 2020-09-14 22:36:22.165 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
+[INFO ] 2020-09-14 22:36:22.352 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
+[INFO ] 2020-09-14 22:36:22.540 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
+[INFO ] 2020-09-14 22:36:22.685 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
+[INFO ] 2020-09-14 22:36:22.868 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
+[INFO ] 2020-09-14 22:36:23.007 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
+[INFO ] 2020-09-14 22:36:23.170 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
+[INFO ] 2020-09-14 22:36:23.170 com.goibibo.pages.FlightReviewPage:97 - closing the popup
+[INFO ] 2020-09-14 22:36:32.433 com.goibibo.pages.FlightReviewPage:100 - Scrolling down to find PROCEED TO PAYMENT button
+[INFO ] 2020-09-14 22:36:32.512 com.goibibo.pages.FlightReviewPage:102 - Clicking on Proceed to payment button
+[INFO ] 2020-09-14 22:36:32.700 com.goibibo.pages.FlightReviewPage:108 - Scrolling down to find PROCEED TO PAYMENT button
+[INFO ] 2020-09-14 22:36:32.720 com.goibibo.pages.FlightReviewPage:110 - Wait untill PAYPAL payment method is loaded
+[INFO ] 2020-09-14 22:36:37.808 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9d37bc1857ed9fa72169008b0782a814)] -> id: tab_paypal]
+[INFO ] 2020-09-14 22:36:38.040 com.goibibo.pages.FlightReviewPage:112 - Selecting paypal as payment method
+[INFO ] 2020-09-14 22:36:38.527 com.goibibo.pages.FlightReviewPage:115 - Verifying payment is in INR amount or not
+[INFO ] 2020-09-14 22:36:38.591 com.goibibo.testcases.SingleTripTest:36 - Payment Amount is INR format
+[INFO ] 2020-09-14 22:36:38.599 com.goibibo.base.TestBase:77 - Closing the browser window
+[INFO ] 2020-09-14 22:36:39.030 com.goibibo.base.TestBase:80 - Closing the complete browser session
