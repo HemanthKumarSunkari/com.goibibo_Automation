@@ -40,8 +40,8 @@ public class FlightReviewPage extends TestBase {
 	@FindBy(xpath = "//button[contains(@class,'button')]//div[1]")
 	WebElement proceedBtn;
 
-	@FindBy(xpath = "//span[@class='bg-greyLt quicks fb white brdrRd10 ico15 padLR20 padTB8 curPointer']")
-	WebElement skipToPaymentBtn;
+	@FindBy(xpath = "//*[@id=\"addonCard\"]/button")
+	WebElement proceedToPaymentBtn;
 
 	@FindBy(id = "tab_paypal")
 	WebElement paypal;
@@ -96,13 +96,13 @@ public class FlightReviewPage extends TestBase {
 			// driver.switchTo().alert().accept();
 			driver.findElement(By.xpath("//button[@class='button blue large fb padLR30']")).click();
 
-			js.executeScript("arguments[0].scrollIntoView();", skipToPaymentBtn);
-			skipToPaymentBtn.click();
+			js.executeScript("arguments[0].scrollIntoView();", proceedToPaymentBtn);
+			proceedToPaymentBtn.click();
 		} catch (Exception e) {
 			System.out.println("There is no option to select seats and SkipToPayment button");
 		}
 
-		js.executeScript("arguments[0].scrollIntoView();", skipToPaymentBtn);
+		js.executeScript("arguments[0].scrollIntoView();", proceedToPaymentBtn);
 		Wait(paypal);
 		paypal.click();
 
