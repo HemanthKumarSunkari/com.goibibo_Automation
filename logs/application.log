@@ -1,288 +1,113 @@
-[INFO ] 2020-09-14 15:07:30.449 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 15:07:35.916 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 15:07:35.918 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 15:07:38.088 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 15:07:38.095 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 15:07:38.127 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 15:07:43.945 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 15:07:43.997 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 15:07:45.482 com.goibibo.pages.LandingPage:166 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 15:07:45.582 com.goibibo.pages.LandingPage:140 - Entering FROM airport as - Delhi
-[INFO ] 2020-09-14 15:07:47.390 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (8f1100474466e0529f5ab1f3bc9fccaf)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 15:07:49.371 com.goibibo.pages.LandingPage:145 - Entering TO airport as - mumbai
-[INFO ] 2020-09-14 15:07:49.682 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (8f1100474466e0529f5ab1f3bc9fccaf)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 15:07:49.896 com.goibibo.pages.LandingPage:150 - Selecting calander for picking date
-[INFO ] 2020-09-14 15:07:50.022 com.goibibo.pages.LandingPage:153 - Selecting the date as - 
-[INFO ] 2020-09-14 15:07:50.476 com.goibibo.pages.LandingPage:156 - Clicking on SEARCH button
-[INFO ] 2020-09-14 15:07:51.089 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 15:07:55.801 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 15:07:55.802 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 15:07:56.577 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3447
-[INFO ] 2020-09-14 15:07:56.578 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 15:07:56.931 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 2hr 5min
-[INFO ] 2020-09-14 15:07:56.932 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 15:07:58.240 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (8f1100474466e0529f5ab1f3bc9fccaf)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 15:08:23.529 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (8f1100474466e0529f5ab1f3bc9fccaf)] -> id: tab_paypal]
-[INFO ] 2020-09-14 15:08:24.036 com.goibibo.base.TestBase:77 - Trying close the browser window
-[INFO ] 2020-09-14 15:08:27.389 com.goibibo.base.TestBase:79 - Window got closed
-[INFO ] 2020-09-14 15:08:27.402 com.goibibo.base.TestBase:80 - Trying to close the complete browser session
-[INFO ] 2020-09-14 15:08:29.790 com.goibibo.base.TestBase:82 - browser session got closed
-[INFO ] 2020-09-14 16:13:47.619 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:14:02.299 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:14:44.578 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:15:51.003 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:25:02.458 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:25:38.686 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:26:31.584 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:26:51.256 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 16:26:51.265 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 16:26:53.444 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 16:26:53.458 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 16:26:53.500 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 16:27:10.480 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 16:27:11.353 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 16:27:12.575 com.goibibo.pages.LandingPage:166 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 16:27:14.844 com.goibibo.pages.LandingPage:139 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 16:27:17.012 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (55bae03a6a70e59649d03ebeb3e1bef0)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 16:27:20.355 com.goibibo.pages.LandingPage:144 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 16:27:23.023 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (55bae03a6a70e59649d03ebeb3e1bef0)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 16:27:23.477 com.goibibo.pages.LandingPage:149 - Selecting calander for picking date
-[INFO ] 2020-09-14 16:27:23.640 com.goibibo.pages.LandingPage:152 - Selecting the date as - 
-[INFO ] 2020-09-14 16:27:24.061 com.goibibo.pages.LandingPage:154 - Selected date is : 18/October/2020
-[INFO ] 2020-09-14 16:27:24.062 com.goibibo.pages.LandingPage:156 - Clicking on SEARCH button
-[INFO ] 2020-09-14 16:27:24.350 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 16:27:27.399 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 16:27:27.400 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 16:27:28.095 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3447
-[INFO ] 2020-09-14 16:27:28.096 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 16:27:28.503 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 2hr 5min
-[INFO ] 2020-09-14 16:27:28.504 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 16:27:30.538 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (55bae03a6a70e59649d03ebeb3e1bef0)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 16:27:46.280 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (55bae03a6a70e59649d03ebeb3e1bef0)] -> id: tab_paypal]
-[INFO ] 2020-09-14 16:27:49.062 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 16:27:51.626 com.goibibo.base.TestBase:80 - Closing the complete browser session
-[INFO ] 2020-09-14 16:29:58.917 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:30:06.777 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 16:30:06.781 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 16:30:08.937 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 16:30:08.945 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 16:30:08.977 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 16:30:17.271 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 16:30:17.871 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 16:30:18.029 com.goibibo.pages.LandingPage:166 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 16:30:18.145 com.goibibo.pages.LandingPage:139 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 16:30:19.074 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (f8b515b066f52eb325fa1c515b47a657)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 16:30:19.362 com.goibibo.pages.LandingPage:144 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 16:30:19.701 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (f8b515b066f52eb325fa1c515b47a657)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 16:30:19.868 com.goibibo.pages.LandingPage:149 - Selecting calander for picking date
-[INFO ] 2020-09-14 16:30:20.079 com.goibibo.pages.LandingPage:152 - Selecting the date as - 
-[INFO ] 2020-09-14 16:30:20.396 com.goibibo.pages.LandingPage:154 - Selected date is : 18/October/2020
-[INFO ] 2020-09-14 16:30:20.397 com.goibibo.pages.LandingPage:156 - Clicking on SEARCH button
-[INFO ] 2020-09-14 16:30:20.662 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 16:30:22.797 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 16:30:22.798 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 16:30:23.436 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3956
-[INFO ] 2020-09-14 16:30:23.437 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 16:30:23.791 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 1hr 50min
-[INFO ] 2020-09-14 16:30:23.792 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 16:30:25.336 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (f8b515b066f52eb325fa1c515b47a657)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 16:31:10.308 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 16:31:14.249 com.goibibo.base.TestBase:80 - Closing the complete browser session
-[INFO ] 2020-09-14 16:43:18.669 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 16:43:25.425 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 16:43:25.428 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 16:43:27.601 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 16:43:27.610 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 16:43:27.641 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 16:43:33.617 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 16:43:33.784 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 16:43:33.834 com.goibibo.pages.LandingPage:166 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 16:43:33.875 com.goibibo.pages.LandingPage:139 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 16:43:36.755 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (365cf979214dc36ba6e4803ad11c1886)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 16:43:36.933 com.goibibo.pages.LandingPage:144 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 16:43:38.367 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (365cf979214dc36ba6e4803ad11c1886)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 16:43:38.524 com.goibibo.pages.LandingPage:149 - Selecting calander for picking date
-[INFO ] 2020-09-14 16:43:38.664 com.goibibo.pages.LandingPage:152 - Selecting the date as - 
-[INFO ] 2020-09-14 16:43:39.098 com.goibibo.pages.LandingPage:154 - Selected date is : 18/October/2020
-[INFO ] 2020-09-14 16:43:39.099 com.goibibo.pages.LandingPage:156 - Clicking on SEARCH button
-[INFO ] 2020-09-14 16:43:39.405 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 16:43:41.796 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 16:43:41.797 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 16:43:43.224 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3956
-[INFO ] 2020-09-14 16:43:43.225 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 16:43:43.577 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 1hr 50min
-[INFO ] 2020-09-14 16:43:43.578 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 16:43:45.593 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (365cf979214dc36ba6e4803ad11c1886)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 16:44:31.544 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 16:44:31.860 com.goibibo.base.TestBase:80 - Closing the complete browser session
-[INFO ] 2020-09-14 18:41:20.775 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 18:41:35.308 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 18:41:35.322 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 18:41:37.495 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 18:41:37.562 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 18:41:37.593 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 18:41:50.976 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 18:41:51.194 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 18:41:51.734 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 18:41:51.783 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 18:41:53.265 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9950ef9002155a80e698643574a9a910)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 18:41:53.771 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 18:41:54.047 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9950ef9002155a80e698643574a9a910)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 18:41:54.241 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
-[INFO ] 2020-09-14 18:41:54.517 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
-[INFO ] 2020-09-14 18:41:55.246 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
-[INFO ] 2020-09-14 18:41:55.249 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
-[INFO ] 2020-09-14 18:41:55.526 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 18:41:57.632 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 18:41:57.634 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 18:41:58.120 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?4322
-[INFO ] 2020-09-14 18:41:58.121 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 18:41:58.465 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 1hr 45min
-[INFO ] 2020-09-14 18:41:58.466 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 18:42:00.306 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
-[INFO ] 2020-09-14 18:42:00.459 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9950ef9002155a80e698643574a9a910)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 18:42:00.663 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
-[INFO ] 2020-09-14 18:42:00.663 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
-[INFO ] 2020-09-14 18:42:00.757 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
-[INFO ] 2020-09-14 18:42:00.880 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
-[INFO ] 2020-09-14 18:42:01.062 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
-[INFO ] 2020-09-14 18:42:01.186 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
-[INFO ] 2020-09-14 18:42:01.326 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
-[INFO ] 2020-09-14 18:42:01.490 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
-[INFO ] 2020-09-14 18:42:01.608 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
-[INFO ] 2020-09-14 18:42:01.773 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
-[INFO ] 2020-09-14 18:42:12.895 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (9950ef9002155a80e698643574a9a910)] -> id: tab_paypal]
-[INFO ] 2020-09-14 18:42:13.424 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 18:42:13.786 com.goibibo.base.TestBase:80 - Closing the complete browser session
-[INFO ] 2020-09-14 18:42:54.112 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 18:43:00.817 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 18:43:00.832 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 18:43:03.042 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 18:43:03.068 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 18:43:03.099 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 18:43:07.697 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 18:43:07.733 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 18:43:07.784 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 18:43:07.814 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 18:43:08.123 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (7759f2b442bb460122c8527b24dd9ef7)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 18:43:08.386 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 18:43:08.937 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (7759f2b442bb460122c8527b24dd9ef7)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 18:43:09.434 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
-[INFO ] 2020-09-14 18:43:09.618 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
-[INFO ] 2020-09-14 18:43:10.018 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
-[INFO ] 2020-09-14 18:43:10.019 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
-[INFO ] 2020-09-14 18:43:10.343 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 18:43:12.200 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 18:43:12.201 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 18:43:12.793 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3955
-[INFO ] 2020-09-14 18:43:12.795 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 18:43:13.167 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 2hr 10min
-[INFO ] 2020-09-14 18:43:13.168 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 18:43:15.048 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
-[INFO ] 2020-09-14 18:43:15.164 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (7759f2b442bb460122c8527b24dd9ef7)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 18:43:15.329 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
-[INFO ] 2020-09-14 18:43:15.330 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
-[INFO ] 2020-09-14 18:43:15.359 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
-[INFO ] 2020-09-14 18:43:15.455 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
-[INFO ] 2020-09-14 18:43:15.601 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
-[INFO ] 2020-09-14 18:43:15.789 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
-[INFO ] 2020-09-14 18:43:15.911 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
-[INFO ] 2020-09-14 18:43:16.067 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
-[INFO ] 2020-09-14 18:43:16.201 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
-[INFO ] 2020-09-14 18:43:16.361 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
-[INFO ] 2020-09-14 18:43:58.131 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 18:43:58.820 com.goibibo.base.TestBase:80 - Closing the complete browser session
-[INFO ] 2020-09-14 20:03:30.129 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 20:03:36.565 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 20:03:36.581 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 20:03:38.768 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 20:03:38.775 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 20:03:38.806 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 20:03:43.647 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 20:03:43.974 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 20:03:44.609 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 20:03:44.642 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 20:03:46.895 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (c0c1f1b2e9505273f492a7cfd9ac201c)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 20:03:47.399 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 20:03:47.733 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (c0c1f1b2e9505273f492a7cfd9ac201c)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 20:03:48.452 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
-[INFO ] 2020-09-14 20:03:48.854 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
-[INFO ] 2020-09-14 20:03:49.420 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
-[INFO ] 2020-09-14 20:03:49.420 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
-[INFO ] 2020-09-14 20:03:49.780 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 20:03:51.934 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 20:03:51.936 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 20:03:53.185 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3955
-[INFO ] 2020-09-14 20:03:53.186 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 20:03:53.517 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 2hr 10min
-[INFO ] 2020-09-14 20:03:53.518 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 20:03:55.005 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
-[INFO ] 2020-09-14 20:03:55.040 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (c0c1f1b2e9505273f492a7cfd9ac201c)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 20:03:55.215 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
-[INFO ] 2020-09-14 20:03:55.221 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
-[INFO ] 2020-09-14 20:03:55.255 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
-[INFO ] 2020-09-14 20:03:55.348 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
-[INFO ] 2020-09-14 20:03:55.477 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
-[INFO ] 2020-09-14 20:03:55.602 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
-[INFO ] 2020-09-14 20:03:55.735 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
-[INFO ] 2020-09-14 20:03:55.878 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
-[INFO ] 2020-09-14 20:03:56.012 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
-[INFO ] 2020-09-14 20:03:56.170 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
-[INFO ] 2020-09-14 20:08:32.636 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 20:08:40.017 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 20:08:40.028 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 20:08:42.191 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 20:08:42.199 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 20:08:42.230 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 20:08:46.562 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 20:08:46.647 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 20:08:47.321 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 20:08:47.452 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 20:08:47.944 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (797fbe2ce9c27590e17cfd5024b5b0b9)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 20:08:48.194 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 20:08:48.782 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (797fbe2ce9c27590e17cfd5024b5b0b9)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 20:08:48.919 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
-[INFO ] 2020-09-14 20:08:49.078 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
-[INFO ] 2020-09-14 20:08:49.564 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
-[INFO ] 2020-09-14 20:08:49.565 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
-[INFO ] 2020-09-14 20:08:49.683 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 20:08:53.599 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 20:09:03.455 com.goibibo.base.TestBase:51 - Trying to launch the chrome browser
-[INFO ] 2020-09-14 20:09:09.924 com.goibibo.base.Browser:31 - Chrome browser is launched
-[INFO ] 2020-09-14 20:09:09.938 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
-[INFO ] 2020-09-14 20:09:12.102 com.goibibo.base.TestBase:57 - Maximizing the browser window
-[INFO ] 2020-09-14 20:09:12.111 com.goibibo.base.TestBase:59 - Deleting all browser cookies
-[INFO ] 2020-09-14 20:09:12.131 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
-[INFO ] 2020-09-14 20:09:18.380 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
-[INFO ] 2020-09-14 20:09:18.426 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
-[INFO ] 2020-09-14 20:09:18.484 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
-[INFO ] 2020-09-14 20:09:18.580 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
-[INFO ] 2020-09-14 20:09:19.094 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (662b46870d4e40911c6954138ef22972)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 20:09:19.557 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
-[INFO ] 2020-09-14 20:09:20.601 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (662b46870d4e40911c6954138ef22972)] -> xpath: //*[@id='react-autosuggest-1']]
-[INFO ] 2020-09-14 20:09:20.807 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
-[INFO ] 2020-09-14 20:09:20.969 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
-[INFO ] 2020-09-14 20:09:21.386 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
-[INFO ] 2020-09-14 20:09:21.390 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
-[INFO ] 2020-09-14 20:09:21.608 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
-[INFO ] 2020-09-14 20:09:23.785 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
-[INFO ] 2020-09-14 20:09:23.786 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
-[INFO ] 2020-09-14 20:09:24.559 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?3955
-[INFO ] 2020-09-14 20:09:24.560 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
-[INFO ] 2020-09-14 20:09:24.962 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 2hr 10min
-[INFO ] 2020-09-14 20:09:24.963 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
-[INFO ] 2020-09-14 20:09:26.333 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
-[INFO ] 2020-09-14 20:09:26.528 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (662b46870d4e40911c6954138ef22972)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
-[INFO ] 2020-09-14 20:09:26.692 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
-[INFO ] 2020-09-14 20:09:26.694 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
-[INFO ] 2020-09-14 20:09:26.727 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
-[INFO ] 2020-09-14 20:09:26.822 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
-[INFO ] 2020-09-14 20:09:26.976 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
-[INFO ] 2020-09-14 20:09:27.097 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
-[INFO ] 2020-09-14 20:09:27.235 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
-[INFO ] 2020-09-14 20:09:27.374 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
-[INFO ] 2020-09-14 20:09:27.498 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
-[INFO ] 2020-09-14 20:09:27.635 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
-[INFO ] 2020-09-14 20:09:39.935 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (662b46870d4e40911c6954138ef22972)] -> id: tab_paypal]
-[INFO ] 2020-09-14 20:09:40.355 com.goibibo.base.TestBase:77 - Closing the browser window
-[INFO ] 2020-09-14 20:09:40.670 com.goibibo.base.TestBase:80 - Closing the complete browser session
+[INFO ] 2020-09-14 20:40:30.611 com.goibibo.base.TestBase:51 - Trying to launch the chrome Driver
+[INFO ] 2020-09-14 20:40:56.428 com.goibibo.base.TestBase:51 - Trying to launch the chrome Driver
+[INFO ] 2020-09-14 20:41:03.758 com.goibibo.base.Browser:31 - Chrome browser is launched
+[INFO ] 2020-09-14 20:41:03.765 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
+[INFO ] 2020-09-14 20:41:05.973 com.goibibo.base.TestBase:57 - Maximizing the browser window
+[INFO ] 2020-09-14 20:41:05.982 com.goibibo.base.TestBase:59 - Deleting all browser cookies
+[INFO ] 2020-09-14 20:41:06.024 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
+[INFO ] 2020-09-14 20:41:21.434 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
+[INFO ] 2020-09-14 20:41:22.049 com.goibibo.testcases.SingleTripTest:21 - Validating Flight tab
+[INFO ] 2020-09-14 20:41:22.050 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
+[INFO ] 2020-09-14 20:41:25.006 com.goibibo.testcases.SingleTripTest:24 - Selecting One Way flight tab
+[INFO ] 2020-09-14 20:41:25.011 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
+[INFO ] 2020-09-14 20:41:25.059 com.goibibo.testcases.SingleTripTest:27 - Enter all  details and search for flight 
+[INFO ] 2020-09-14 20:41:25.060 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
+[INFO ] 2020-09-14 20:41:27.989 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (f76ed09b9bd3996de2d5563d8ed6f49c)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 20:41:28.546 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
+[INFO ] 2020-09-14 20:41:28.817 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (f76ed09b9bd3996de2d5563d8ed6f49c)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 20:41:30.306 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
+[INFO ] 2020-09-14 20:41:31.348 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
+[INFO ] 2020-09-14 20:41:32.127 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
+[INFO ] 2020-09-14 20:41:32.128 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
+[INFO ] 2020-09-14 20:41:32.475 com.goibibo.testcases.SingleTripTest:30 - Selecting lowerst price flight from list
+[INFO ] 2020-09-14 20:41:32.477 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
+[INFO ] 2020-09-14 20:41:34.948 com.goibibo.base.TestBase:77 - Closing the browser window
+[INFO ] 2020-09-14 21:56:12.274 com.goibibo.base.TestBase:51 - Trying to launch the chrome Driver
+[INFO ] 2020-09-14 21:56:29.975 com.goibibo.base.Browser:31 - Chrome browser is launched
+[INFO ] 2020-09-14 21:56:29.975 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
+[INFO ] 2020-09-14 21:56:32.142 com.goibibo.base.TestBase:57 - Maximizing the browser window
+[INFO ] 2020-09-14 21:56:32.162 com.goibibo.base.TestBase:59 - Deleting all browser cookies
+[INFO ] 2020-09-14 21:56:32.193 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
+[INFO ] 2020-09-14 21:56:40.623 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
+[INFO ] 2020-09-14 21:56:41.412 com.goibibo.testcases.SingleTripTest:21 - Validating Flight tab
+[INFO ] 2020-09-14 21:56:41.413 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
+[INFO ] 2020-09-14 21:56:46.098 com.goibibo.testcases.SingleTripTest:24 - Selecting One Way flight tab
+[INFO ] 2020-09-14 21:56:46.099 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
+[INFO ] 2020-09-14 21:56:46.180 com.goibibo.testcases.SingleTripTest:27 - Enter all  details and search for flight 
+[INFO ] 2020-09-14 21:56:46.180 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
+[INFO ] 2020-09-14 21:56:49.612 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (844d38d8f96af65f269b338e498c2af5)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 21:56:52.846 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
+[INFO ] 2020-09-14 21:56:53.254 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (844d38d8f96af65f269b338e498c2af5)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 21:56:53.603 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
+[INFO ] 2020-09-14 21:56:53.917 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
+[INFO ] 2020-09-14 21:56:54.341 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
+[INFO ] 2020-09-14 21:56:54.341 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
+[INFO ] 2020-09-14 21:56:55.066 com.goibibo.testcases.SingleTripTest:30 - Selecting lowerst price flight from list
+[INFO ] 2020-09-14 21:56:55.066 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
+[INFO ] 2020-09-14 21:56:59.016 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
+[INFO ] 2020-09-14 21:56:59.017 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
+[INFO ] 2020-09-14 21:56:59.539 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?4322
+[INFO ] 2020-09-14 21:56:59.540 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
+[INFO ] 2020-09-14 21:56:59.892 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 1hr 45min
+[INFO ] 2020-09-14 21:56:59.893 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
+[INFO ] 2020-09-14 21:57:00.361 com.goibibo.testcases.SingleTripTest:33 - Select paypal payment methods after slecting no insurance & entering passenger details
+[INFO ] 2020-09-14 21:57:01.766 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
+[INFO ] 2020-09-14 21:57:01.874 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (844d38d8f96af65f269b338e498c2af5)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
+[INFO ] 2020-09-14 21:57:02.170 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
+[INFO ] 2020-09-14 21:57:02.172 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
+[INFO ] 2020-09-14 21:57:02.650 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
+[INFO ] 2020-09-14 21:57:02.789 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
+[INFO ] 2020-09-14 21:57:03.130 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
+[INFO ] 2020-09-14 21:57:03.248 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
+[INFO ] 2020-09-14 21:57:03.369 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
+[INFO ] 2020-09-14 21:57:03.552 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
+[INFO ] 2020-09-14 21:57:03.681 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
+[INFO ] 2020-09-14 21:57:03.907 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
+[INFO ] 2020-09-14 21:57:16.345 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (844d38d8f96af65f269b338e498c2af5)] -> id: tab_paypal]
+[INFO ] 2020-09-14 21:57:17.117 com.goibibo.base.TestBase:77 - Closing the browser window
+[INFO ] 2020-09-14 21:57:22.807 com.goibibo.base.TestBase:80 - Closing the complete browser session
+[INFO ] 2020-09-14 21:58:53.941 com.goibibo.base.TestBase:51 - Trying to launch the chrome Driver
+[INFO ] 2020-09-14 21:59:02.009 com.goibibo.base.Browser:31 - Chrome browser is launched
+[INFO ] 2020-09-14 21:59:02.014 com.goibibo.base.TestBase:55 - Intializing the JavaScript Executor
+[INFO ] 2020-09-14 21:59:04.173 com.goibibo.base.TestBase:57 - Maximizing the browser window
+[INFO ] 2020-09-14 21:59:04.183 com.goibibo.base.TestBase:59 - Deleting all browser cookies
+[INFO ] 2020-09-14 21:59:04.215 com.goibibo.base.TestBase:63 - Trying to navigate to :https://www.goibibo.com/
+[INFO ] 2020-09-14 21:59:10.944 com.goibibo.base.TestBase:65 - Navigated to : https://www.goibibo.com/
+[INFO ] 2020-09-14 21:59:11.165 com.goibibo.testcases.SingleTripTest:21 - Validating Flight tab
+[INFO ] 2020-09-14 21:59:11.166 com.goibibo.pages.LandingPage:69 - Validating whether we are in flights tab or not
+[INFO ] 2020-09-14 21:59:12.575 com.goibibo.testcases.SingleTripTest:24 - Selecting One Way flight tab
+[INFO ] 2020-09-14 21:59:12.576 com.goibibo.pages.LandingPage:163 - Trying to find whether we are in Single_Trip tab or NOT
+[INFO ] 2020-09-14 21:59:12.617 com.goibibo.testcases.SingleTripTest:27 - Enter all  details and search for flight 
+[INFO ] 2020-09-14 21:59:12.618 com.goibibo.pages.LandingPage:136 - Entering FROM airport as - DELHI
+[INFO ] 2020-09-14 21:59:14.360 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (e08b1640aae969532a2625e7556b9a22)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 21:59:14.772 com.goibibo.pages.LandingPage:141 - Entering TO airport as - MUMBAI
+[INFO ] 2020-09-14 21:59:15.178 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (e08b1640aae969532a2625e7556b9a22)] -> xpath: //*[@id='react-autosuggest-1']]
+[INFO ] 2020-09-14 21:59:15.730 com.goibibo.pages.LandingPage:146 - Selecting calander for picking date
+[INFO ] 2020-09-14 21:59:15.957 com.goibibo.pages.LandingPage:149 - Selecting the date as - 
+[INFO ] 2020-09-14 21:59:16.592 com.goibibo.pages.LandingPage:151 - Selected date is : 18/November/2020
+[INFO ] 2020-09-14 21:59:16.593 com.goibibo.pages.LandingPage:153 - Clicking on SEARCH button
+[INFO ] 2020-09-14 21:59:16.905 com.goibibo.testcases.SingleTripTest:30 - Selecting lowerst price flight from list
+[INFO ] 2020-09-14 21:59:16.906 com.goibibo.pages.SingleTripFlight:111 - Checking and changing the flights list with prices starting from least
+[INFO ] 2020-09-14 21:59:21.620 com.goibibo.pages.SingleTripFlight:60 - Prices are started from least fare value
+[INFO ] 2020-09-14 21:59:21.621 com.goibibo.pages.SingleTripFlight:114 - Trying to find the least priced flight
+[INFO ] 2020-09-14 21:59:22.157 com.goibibo.pages.SingleTripFlight:80 - Cheapest fare of among all Flight = ?4322
+[INFO ] 2020-09-14 21:59:22.158 com.goibibo.pages.SingleTripFlight:117 - Trying to find the flight with shortest duration
+[INFO ] 2020-09-14 21:59:22.522 com.goibibo.pages.SingleTripFlight:102 - Shortest duration among all flights = 1hr 45min
+[INFO ] 2020-09-14 21:59:22.523 com.goibibo.pages.SingleTripFlight:121 - Index of selected flight = 0
+[INFO ] 2020-09-14 21:59:23.065 com.goibibo.testcases.SingleTripTest:33 - Select paypal payment methods after slecting no insurance & entering passenger details
+[INFO ] 2020-09-14 21:59:24.267 com.goibibo.pages.FlightReviewPage:54 - Scrolling down to find : I am willing to risk my trip
+[INFO ] 2020-09-14 21:59:24.408 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (e08b1640aae969532a2625e7556b9a22)] -> xpath: //label[contains(text(),'I am willing to risk my trip')]]
+[INFO ] 2020-09-14 21:59:24.591 com.goibibo.pages.FlightReviewPage:57 - Selected No Insurance - check box
+[INFO ] 2020-09-14 21:59:24.591 com.goibibo.pages.FlightReviewPage:64 - Scrolling down to find Passenger Details - proceed btn
+[INFO ] 2020-09-14 21:59:24.818 com.goibibo.pages.FlightReviewPage:68 - Entered Passenger details are : 
+[INFO ] 2020-09-14 21:59:24.941 com.goibibo.pages.FlightReviewPage:71 - Entered Title : Mr
+[INFO ] 2020-09-14 21:59:25.111 com.goibibo.pages.FlightReviewPage:74 - Entered First Name : Hemanth
+[INFO ] 2020-09-14 21:59:25.281 com.goibibo.pages.FlightReviewPage:77 - Entered Middle Name : Kumar
+[INFO ] 2020-09-14 21:59:25.396 com.goibibo.pages.FlightReviewPage:80 - Entered Last Name : Sunkari
+[INFO ] 2020-09-14 21:59:25.555 com.goibibo.pages.FlightReviewPage:83 - Entered Email : hemanth@orkut.com
+[INFO ] 2020-09-14 21:59:25.705 com.goibibo.pages.FlightReviewPage:86 - Entered Mobile Number : 7896542310
+[INFO ] 2020-09-14 21:59:25.969 com.goibibo.pages.FlightReviewPage:89 - Clicked on Proceed button
+[INFO ] 2020-09-14 21:59:41.866 com.goibibo.base.TestBase:92 - Driver is trying to find element :[[ChromeDriver: chrome on WINDOWS (e08b1640aae969532a2625e7556b9a22)] -> id: tab_paypal]
+[INFO ] 2020-09-14 21:59:42.844 com.goibibo.base.TestBase:77 - Closing the browser window
+[INFO ] 2020-09-14 21:59:44.004 com.goibibo.base.TestBase:80 - Closing the complete browser session
+[INFO ] 2020-09-14 22:00:52.802 com.goibibo.base.TestBase:51 - Trying to launch the chrome Driver

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-
-<suite name="Single Trip">
-
-  <test name="Single Trip - Payment Test" parallel="methods">
-  
+<suite thread-count="2" parallel="methods" name="Single Trip">
+  <test thread-count="2" parallel="methods" name="Single Trip with payment">
     <classes>
       <class name="com.goibibo.testcases.SingleTripTest"/>
     </classes>
-    
-  </test> <!-- SingleTripPaymentTest -->
-  
-</suite> <!-- SingleTrip -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -48,7 +48,7 @@ public class TestBase {
 	 */
 	@BeforeMethod
 	public static void initialization() {
-		TestUtil.log().info("Trying to launch the "+ prop.getProperty("browser")+" browser");
+		TestUtil.log().info("Trying to launch the "+ prop.getProperty("browser")+" Driver");
 		Browser.initialization(prop.getProperty("browser"));
 
 		js = (JavascriptExecutor) driver;
