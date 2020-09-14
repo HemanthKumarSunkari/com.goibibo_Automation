@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-14T10:55:01Z" name="SingleTrip" finished-at="2020-09-14T10:55:02Z" duration-ms="1060">
+    <groups>
+    </groups>
+    <test started-at="2020-09-14T10:55:01Z" name="SingleTripPaymentTest" finished-at="2020-09-14T10:55:02Z" duration-ms="1060">
+    </test> <!-- SingleTripPaymentTest -->
+  </suite> <!-- SingleTrip -->
+</testng-results>
