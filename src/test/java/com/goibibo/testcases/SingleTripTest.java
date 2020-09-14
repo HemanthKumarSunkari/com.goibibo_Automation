@@ -13,7 +13,10 @@ import com.goibibo.util.TestUtil;
 
 public class SingleTripTest extends TestBase {
 
-	
+	/*
+	 * change invocationcount, to run the same method for multiple times.
+	 * Add threadPoolSiz & timeOut to run test case parallelly 
+	 */
 	@Test(invocationCount = 1)
 	public static void SingleTripPaymentTest() throws ParseException {
 		LandingPage lp = new LandingPage();
