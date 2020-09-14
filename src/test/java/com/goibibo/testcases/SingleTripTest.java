@@ -14,7 +14,7 @@ import com.goibibo.util.TestUtil;
 public class SingleTripTest extends TestBase {
 
 	
-	@Test()
+	@Test(invocationCount = 2)
 	public static void SingleTripPaymentTest() throws ParseException {
 		LandingPage lp = new LandingPage();
 		
